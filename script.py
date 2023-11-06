@@ -20,7 +20,6 @@ if number_letters > 0:
 if number_symbols > 0:
     for symbol in range(number_symbols):
         password.append(random.choice(symbols))
-
 if number_numbers > 0:
     for number in range(number_numbers):
         password.append(random.choice(numbers))
